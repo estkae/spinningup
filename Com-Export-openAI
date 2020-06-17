@@ -2,3 +2,5 @@ python -m spinup.run ppo --exp_name ppo_ant --env Ant-v2 --clip_ratio 0.1 0.2 --
 []
 export OMPI_MCA_btl=self,tcp
 export PMIX_MCA_gds=^ds12
+
+>>>>> End
